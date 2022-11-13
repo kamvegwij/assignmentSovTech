@@ -5,8 +5,8 @@ The project is mainly composed of HTML, CSS and JavaScript.
 # How to bootstrap my project:
 - If you have nodejs [installed](https://nodejs.org/en/) on your system then in your cmd and in an appropriate folder run the following command
 - npx create-next-app newkamveapp -e https://github.com/kamvegwij/assignmentSovTech
-- Note that name of your project can be any name for your new app, here I called it 'newkamveapp'.
-- Now run -> cd kamveapp and nmp run dev
+- Note that name of your project can be any \nname for your new app, here I called it 'newkamveapp'.
+- Now run -> cd kamveapp and npm run dev
 - So now you will have a new nextjs app of the template of my app.
 
 
