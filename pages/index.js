@@ -152,7 +152,7 @@ export default function Home() {
 
                 <h2>4. QuickHelp</h2>
                 <img src="quickhelp.jpg" height="300" width="550" id="help" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with HTML, CSS, JavaScript, Flask, SQL, Type.fit API, Twilio.</label>
+                <br></br><label id="add_info">Built with HTML, CSS, JavaScript, Flask, SQL, Type.fit API, Twilio and deployed on Heroku.</label>
                 <br></br><a href="https://github.com/kamvegwij/FINAL-CAPSTONE/tree/main/Product%20Development">Source Code</a>
                 <br></br><a href="https://myquickhelp.herokuapp.com/">Deployed Version </a>
 
@@ -284,6 +284,8 @@ export default function Home() {
         #projects img {
           width: 80%;
           height: 70%;
+
+          box-shadow: 0px 0px 7px black;
         }
        /* background: linear-gradient(45deg,#e2d28c, #544815);*/
         #proj-head{
@@ -368,6 +370,12 @@ export default function Home() {
             margin: auto;
             padding: 7px;
             height: 15vh;
+          }
+          a{
+            color: rgba(100, 0, 255, .6);
+          }
+          a:hover{
+            color: rgba(0, 100, 255, .9);
           }
         `}
       </style>
