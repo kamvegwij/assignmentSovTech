@@ -5,4 +5,4 @@ I made use of [Next.js](https://nextjs.org/) project and bootstrapped with [`cre
 # Finally
 Thank you for viewing my page, 
 The link to the deployed version 
-[MyAssignment]([assignment-sov-tech-nxaefso65-kamvegwij.vercel.app](https://assignment-sov-tech-ofpsfyw9r-kamvegwij.vercel.app/))
+[Assignment link](https://assignment-sov-tech-ofpsfyw9r-kamvegwij.vercel.app/)
