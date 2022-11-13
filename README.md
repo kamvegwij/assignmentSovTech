@@ -12,4 +12,4 @@ The project is mainly composed of HTML, CSS and JavaScript.
 
 Thank you for viewing my page, 
 I used Vercel to deploy the project and the link is 
-[Assignment link](https://assignment-sov-tech-ofpsfyw9r-kamvegwij.vercel.app/)
+[Assignment link](https://assignment-sov-tech-ooozl20ik-kamvegwij.vercel.app/)
