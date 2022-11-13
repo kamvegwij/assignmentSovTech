@@ -1,5 +1,6 @@
 # What I Used:
 I made use of [Next.js](https://nextjs.org/) project and bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) to create the initial app.
+The project is mainly composed of HTML, CSS and JavaScript.
 
 # How to bootstrap my project:
 - If you have nodejs [installed](https://nodejs.org/en/) on your systemm then in your cmd and in an appropriate folder run the following command
@@ -10,5 +11,5 @@ I made use of [Next.js](https://nextjs.org/) project and bootstrapped with [`cre
 
 
 Thank you for viewing my page, 
-The link to the deployed version 
+I used Vercel to deploy the project and the link is 
 [Assignment link](https://assignment-sov-tech-ofpsfyw9r-kamvegwij.vercel.app/)
