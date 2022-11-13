@@ -1,31 +1,8 @@
 import Head from 'next/head'
 import { createElement } from 'react'
-
 export default function Home() {
   
   var id = null;
- /* function animateItem(x){
-    
-    var edge = 0; //used to break
-    //change style properties of element x
-    clearInterval(id);
-    id  = setInterval(frame, 80);
-    //now define frame function and animate list of items:
-    
-    
-    function frame(){
-      for (let i = 0; i < x.length; i++){
-        if (edge == 10){
-          clearInterval(id);
-          x[i].style.borderBottom = 'none';
-        }
-        else{
-          edge += .5;
-          x[i].style.borderBottom = edge + 'px solid dashed';
-        }
-    }
-  }//end of loop
-  }*/
   function textTransition(x){
     //I want to animate this transition:
       var inset_count = 0;
@@ -68,7 +45,6 @@ export default function Home() {
                         You begin in the characters farm, 
                         his name Buddy, and are instructed to find his tools that have gone missing. Once every item is collected you are prompted
                         to go to his house to then enter the next level. There is currently only one level.`;
-      //animateItem([godot]);
       textTransition(para);
     }
     else if (e.target.id == "word"){
@@ -199,186 +175,6 @@ export default function Home() {
             <a href="https://github.com/kamvegwij">GitHub</a>
           </footer>
     </main>
-
-      <style jsx>
-        {`
-        /*headers styling*/
-          #top-container{
-            padding: 10px;
-            width: 100%;
-            background: linear-gradient(96deg, #2d270b 50%, #544815 50.1%);
-            color: white;
-            border-radius: 10px;
-          }
-          #main-head{
-            font-size:2em;
-            letter-spacing: 3px;
-            margin-left: 1em;
-            text-decoration: underline wavy #d3bb52;
-            text-underline-position: under;
-            border-radius: 10px;
-            padding: 12px;
-            display: inline;
-          }
-          h1{
-            font-size: 1.6em;
-            letter-spacing: 3px;
-            -webkit-text-fill-color: transparent;
-            -webkit-text-stroke: 1px;
-          }
-          #top-container{
-            text-align: left;
-          }
-          
-
-        /*about me section styling*/
-        
-        #info-container{
-          position: relative;
-          margin-top: 3em;
-          margin: auto;
-          padding: 5px;
-          width: 70%;
-          height: 25%;
-          font-weight: medium;
-          text-align: center;
-        }
-
-        /*projects section styling*/
-
-        #work-container{
-          padding: 20px;
-          justify-content: center;
-          display: flex;
-        }
-        #work-container h1 {
-          font-size: 25px;
-        }
-        #projects{
-          border: none;
-          border-radius: 5px;
-          flex-basis: 650px;
-          height: 50vh;
-          margin: 4px;
-          overflow: scroll;
-          overflow-x: hidden;
-        }
-        #projects::-webkit-scrollbar{
-          width: 5px;
-          
-        }
-        #projects::-webkit-scrollbar-track{ /*hide scrollbars*/
-          background: transparent;
-        }
-        #projects::-webkit-scrollbar-thumb{
-          border-radius: 20px;
-          background-color: white;
-        }
-        #projects::-webkit-scrollbar-thumb:hover{
-          background-color: rgba(255, 255, 255, .6);
-        }
-        #projects:hover{
-          cursor: grab;
-          
-        }
-        #projects img {
-          width: 80%;
-          height: 70%;
-
-          box-shadow: 0px 0px 7px black;
-        }
-       /* background: linear-gradient(45deg,#e2d28c, #544815);*/
-        #proj-head{
-          width: 100%;
-          position: sticky;
-          top: 0;
-        }
-        #proj-head h1, #descr-head h1{
-          display: inline;
-          border-bottom: 4px solid #e2d28c;
-        }
-        #add_info{
-          color: rgba(1, 0, 0, .4);
-        }
-        #descr-head{
-          width: 100%;
-          position: sticky;
-          top: 0;
-          border: none;
-        }
-        #description{
-          font-size: 1.2em;
-          border-radius: 5px;
-          flex-basis: 450px;
-          height: 50vh;
-          margin: 4px;
-          overflow: scroll;
-        }
-        #description::-webkit-scrollbar{ /*hide scrollbars*/
-          display: none;
-        }
-
-        #tech {
-          padding: 20px;
-          width: 100%;
-          height: 15vh;
-        }
-        #tech #tech_img{
-          margin:.5em;
-          width: 5%;
-          height: 50%;
-        }
-
-        /*bottom section styling*/
-
-        #bottom-info h1{
-          font-size: 27px;
-        }
-        #bottom-container{
-          border-radius: 10px;
-          width: 100%;
-          background: linear-gradient(96deg, #544815 50%,#2d270b 50.1%);
-          color: white;
-        }
-        #bottom-info{
-          position: relative;
-          margin-top: 2em;
-          margin: auto;
-          padding: 3px;
-          width: 50%;
-          height: 50%;
-        }
-
-        /*some animations of mine :) */
-        
-        `}
-      </style>
-      <style jsx global>
-        {`
-        @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200');
-        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200');
-        main{
-              padding: 2px;
-              text-align: center;
-              font-family: 'Dosis', sans-serif;
-              color: black;
-              font-weight: bold;
-              font-size: 100%;
-              background-color: #f6f0db;
-          }
-          footer{
-            margin: auto;
-            padding: 7px;
-            height: 15vh;
-          }
-          a{
-            color: rgba(100, 0, 255, .6);
-          }
-          a:hover{
-            color: rgba(0, 100, 255, .9);
-          }
-        `}
-      </style>
     </div>
   )
 }
