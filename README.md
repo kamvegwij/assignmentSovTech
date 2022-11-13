@@ -3,4 +3,4 @@ I made use of [Next.js](https://nextjs.org/) project and bootstrapped with [`cre
 # How to bootstrap my project:
 - ..
 The link to the deployed version 
-assignment-sov-tech-nxaefso65-kamvegwij.vercel.app
+[MyAssignment](assignment-sov-tech-nxaefso65-kamvegwij.vercel.app)
