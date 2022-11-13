@@ -3,7 +3,7 @@ I made use of [Next.js](https://nextjs.org/) project and bootstrapped with [`cre
 The project is mainly composed of HTML, CSS and JavaScript.
 
 # How to bootstrap my project:
-- If you have nodejs [installed](https://nodejs.org/en/) on your systemm then in your cmd and in an appropriate folder run the following command
+- If you have nodejs [installed](https://nodejs.org/en/) on your system then in your cmd and in an appropriate folder run the following command
   npx create-next-app [name of your project] -e https://github.com/kamvegwij/assignmentSovTech
 - Note that name of your project can be any name for your new app
 - Now you must run command "cd [name of project]" and finally to run on a development server type in "npm run dev"
